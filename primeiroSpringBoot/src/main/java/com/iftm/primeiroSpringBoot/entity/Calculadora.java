@@ -1,33 +1,31 @@
 package com.iftm.primeiroSpringBoot.entity;
 
 public class Calculadora {
-	private double resultado;
+	private int resultado;
 	
-	public void somar(double num1, double num2) {
+	public void somar(int num1, int num2) {
 		resultado = num1 + num2;
 	}
 	
-	public void subtrair(double num1, double num2) {
+	public void subtrair(int num1, int num2) {
 		resultado = num1 - num2;
 	}
 	
-	public void dividir(double num1, double num2) {
+	public void dividir(int num1, int num2) {
 		resultado = num1 / num2;
 	}
 	
-	public void multiplicar (double num1, double num2) {
+	public void multiplicar (int num1, int num2) {
 		resultado = num1 * num2;
 	}
 
-	public double getResultado() {
+	public int getResultado() {
 		return resultado;
 	}
 	
 
-	public void setResultado(double resultado) {
+	public void setResultado(int resultado) {
 		this.resultado = resultado;
 	}	
-
-	
 	
 }
