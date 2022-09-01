@@ -12,7 +12,13 @@ public class Calculadora {
 	}
 	
 	public void dividir(int num1, int num2) {
-		resultado = num1 / num2;
+		if(num2 != 0) {
+			resultado = num1 / num2;
+			} else {
+				resultado = -1;
+			}
+
+		
 	}
 	
 	public void multiplicar (int num1, int num2) {
